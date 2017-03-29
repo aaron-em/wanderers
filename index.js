@@ -6,7 +6,12 @@ var Simulation = require('lib/Simulation');
 
 var conf = {
   things: 100,
-  rate: 100,
+  rate: 3,
+  moveOpts: {
+    attraction: 0.5,
+    repulsion: 2,
+    extrovertFaction: 2
+  },
   keys: {
     escape: 'exit',
     q: 'exit',
