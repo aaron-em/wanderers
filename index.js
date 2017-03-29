@@ -11,7 +11,10 @@ var conf = {
     escape: 'exit',
     q: 'exit',
     'C-c': 'exit',
-    space: 'restart'
+    space: 'pauseToggle',
+    r: 'restart',
+    '+': 'faster',
+    '-': 'slower'
   },
   screen: {
     smartCSR: true
